@@ -1,17 +1,17 @@
 # Lab 5
 
-##  I/O Redirection: Standard Output
+##  Standard Output
 
 - **Default Output**: By default, the output is displayed on the screen.
 - **Redirect Output**: Use `>` after a command to save the output to a file.
   - Example: `ls > output.txt`
 - **cat command**: Displays the content of a text file on the screen.
 
-## I/O Redirection: Append Output
+## Append Output
 
 - Use `>>` to append the output to an existing file or create and write to a new file if it doesn't exist.
 
-## I/O Redirection: Standard Input
+## Standard Input
 
 - By default, standard input is from the keyboard.
 - Use `<` to redirect input from a file.
