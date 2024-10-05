@@ -2,13 +2,11 @@
 
 ##  Standard Output
 
-- **Default Output**: By default, the output is screen.
-- **Redirect Output**: Use `>` after a command to save the output to a file.
-- **cat command**: Displays the content of a text file on the screen.
+- By default, the output is screen.
+- Use `>` after a command to save the output to a file.
+- Use `>>` to append output to an existing file or create a new file.
 
-## Append Output
 
-- Use `>>` to append the output to an existing file or create and write to a new file if it doesn't exist.
 
 ## Standard Input
 
