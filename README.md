@@ -1,6 +1,3 @@
-<h1>Open Source SW: Lecture 5 - CLI (Command Line Interface)-2</h1>
-<p><strong>Lecturer:</strong> JaKeoung Koo (Gachon University)</p>
-<hr>
 
 <h2>I/O Redirection: Standard Output</h2>
 <ul>
