@@ -6,74 +6,61 @@
 - Use `>` after a command to save the output to a file.
 - Use `>>` to append output to an existing file or create a new file.
 
-
-
 ## Standard Input
 
-- By default, standard input is from the keyboard.
+- By default, standard input is keyboard.
 - Use `<` to redirect input from a file.
-- You can combine `<` and `>` to manage both input and output in a single command.
 
-## Pipelines `|`
+## Pipelines
 
-- A pipeline (`|`) sends the output of the first command to the input of the next command.
-  - Example: `command1 | command2 | command3`
+- A pipeline (`|`) is used to pass the output of one command to the input of another
 
 ## Expansion
 
-- Special characters expand their meaning when used in shell commands.
+- Special characters expand their meaning when given to shell commands.
 
-## Tip: Backslash (`\`)
+## Backslash 
 
-- The backslash can be used to ignore line breaks and continue a long command over multiple lines.
+- The backslash is used to enter a long command in multiple lines.
+
 
 ## Permissions
 
-- Linux is a multi-user system.
-- Files and directories have different permissions assigned to the owner, group, and others.
-
-## Changing Permissions
-
-- The `chmod` command is used to change file permissions.
-  - Example: `chmod 600 word.txt` (owner can read/write, group and others have no access)
-
+- The `chmod` command is used to modify these permissions
+  
 ## Superuser
 
 - A superuser has full system administration privileges.
-- Some commands require superuser privileges, so use `sudo` before the command if you are a superuser.
-  - Example: `sudo apt update`
-- Type `exit` to exit a superuser session.
+- Use `sudo` to run commands as a superuser
 
 ##  Text Editors
 
-- In Linux, you can use CLI-based or GUI-based text editors.
+- CLI-based or GUI-based text editors can be used in Linux.
 
 ## Shell Script
 
-- You can write and run shell scripts. If there is a problem using nano (on Windows), you can use another text editor (e.g., Notepad).
+- You can write and execute shell scripts. 
 
-## Tip: History
+## Command History
 
-- Type `history` to see the previous command history.
-- You can also save the history to a text file.
-  - Example: `history > history.txt`
-
+- Use `history` command to display previously executed commands. You can save this output to a file.
+  
 ## wget
 
-- The `wget` command is used to download files from the internet directly to your current directory.
-  - Example: `wget http://example.com/file.txt`
+- The `wget` command is used to download files directly from the internet into the current directory
+
 
 ## curl
 
-- `curl` is used for fetching, uploading, and managing data over the internet.
-  - Example: `curl [options] [URL]`
+- `curl` is for fetching, uploading, and managing data over the Internet.
+
 
 ## grep
 
-- `grep` is used to search for text within files.
+- `grep` is used for searching text within files)
   - Example: `grep "search_term" file.txt`
 - **Common Options**:
   - `-i`: Case-insensitive search
-  - `-v`: Invert match (find lines not containing the search term)
+  - `-v`: Invert match (shows lines not containing the search term).
   - `-n`: Show line numbers along with matching lines
-  - `-r`: Recursive search (searches through all files in a directory and its subdirectories)
+  - `-r`: Recursive search through directories.
