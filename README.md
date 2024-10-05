@@ -1,4 +1,3 @@
-
 <h2>I/O Redirection: Standard Output</h2>
 <ul>
   <li><strong>Default Standard Output</strong>: The screen is the default for standard output.</li>
