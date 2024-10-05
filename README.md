@@ -2,7 +2,7 @@
 
 ##  Standard Output
 
-- **Default Output**: By default, the output is displayed on the screen.
+- **Default Output**: By default, the output is screen.
 - **Redirect Output**: Use `>` after a command to save the output to a file.
   - Example: `ls > output.txt`
 - **cat command**: Displays the content of a text file on the screen.
