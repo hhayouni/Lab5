@@ -57,8 +57,7 @@
 
 ## grep
 
-- `grep` is used for searching text within files)
-  - Example: `grep "search_term" file.txt`
+- `grep` is used for searching text within files
 - **Common Options**:
   - `-i`: Case-insensitive search
   - `-v`: Invert match (shows lines not containing the search term).
