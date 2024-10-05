@@ -1,4 +1,4 @@
-# Lecture 5: CLI (Command Line Interface) - 2
+# Lab 5
 
 ## 1. I/O Redirection: Standard Output
 
